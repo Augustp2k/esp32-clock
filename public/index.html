@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ESP32 Clock Feed</title>
+    <style>
+      :root { color-scheme: dark; font-family: system-ui, sans-serif; }
+      body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #0d1422; color: #f5f7fb; }
+      main { width: min(440px, calc(100% - 32px)); background: #172136; border: 1px solid #2b3a55; border-radius: 20px; padding: 24px; box-shadow: 0 18px 60px #0008; }
+      img { width: 100%; aspect-ratio: 12 / 7; object-fit: cover; border-radius: 12px; background: #222; image-rendering: auto; }
+      h1 { margin: 18px 0 4px; font-size: 1.1rem; font-weight: 600; color: #a9b7d0; }
+      #weather { font-size: 2rem; margin: 0; }
+      #quote { font-size: 1.15rem; line-height: 1.5; color: #d8e3f5; }
+      #updated { font-size: .8rem; color: #8291aa; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <img id="photo" src="today.jpg" alt="Daily photo">
+      <h1>Taipei</h1>
+      <p id="weather">Loading…</p>
+      <p id="quote"></p>
+      <p id="updated"></p>
+    </main>
+    <script>
+      fetch(`today.json?t=${Date.now()}`, { cache: "no-store" })
+        .then(response => response.json())
+        .then(data => {
+          const temperature = data.temperature_c == null ? "--" : `${data.temperature_c}°C`;
+          const sunset = data.sunset == null ? "--:--" : data.sunset;
+          document.querySelector("#weather").textContent = `${temperature} · Sunset ${sunset}`;
+          document.querySelector("#quote").textContent = data.quote;
+          document.querySelector("#updated").textContent = `Updated ${data.updated_at}`;
+          document.querySelector("#photo").src = `today.jpg?t=${encodeURIComponent(data.updated_at)}`;
+        })
+        .catch(() => {
+          document.querySelector("#weather").textContent = "Feed is being prepared";
+        });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "date": "2026-09-11",
+  "updated_at": "2026-09-11T14:02:37+08:00",
+  "timezone": "Asia/Taipei",
+  "temperature_c": null,
+  "sunset": null,
+  "quote": "Your future is built today.",
+  "image": "today.jpg",
+  "image_source": null,
+  "image_width": 240,
+  "image_height": 140,
+  "weather_observed_at": null,
+  "weather_ok": false,
+  "weather_error": "URLError"
+}
