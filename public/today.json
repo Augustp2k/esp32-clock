@@ -1,14 +1,14 @@
 {
   "date": "2026-09-12",
-  "updated_at": "2026-09-12T09:05:27+08:00",
+  "updated_at": "2026-09-12T13:45:52+08:00",
   "timezone": "Asia/Taipei",
-  "temperature_c": 28.4,
+  "temperature_c": 31.0,
   "sunset": "18:01",
   "quote": "Keep going; the path will appear.",
   "image": "today.jpg",
   "image_source": null,
   "image_width": 240,
   "image_height": 140,
-  "weather_observed_at": "2026-09-12T09:00",
+  "weather_observed_at": "2026-09-12T13:45",
   "weather_ok": true
 }
