@@ -1,14 +1,14 @@
 {
-  "date": "2026-09-12",
-  "updated_at": "2026-09-12T22:06:11+08:00",
+  "date": "2026-09-13",
+  "updated_at": "2026-09-13T01:08:15+08:00",
   "timezone": "Asia/Taipei",
-  "temperature_c": 26.2,
-  "sunset": "18:01",
-  "quote": "Keep going; the path will appear.",
+  "temperature_c": 25.8,
+  "sunset": "18:00",
+  "quote": "Choose courage over comfort.",
   "image": "today.jpg",
   "image_source": null,
   "image_width": 240,
   "image_height": 140,
-  "weather_observed_at": "2026-09-12T22:00",
+  "weather_observed_at": "2026-09-13T01:00",
   "weather_ok": true
 }
