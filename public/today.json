@@ -1,14 +1,14 @@
 {
   "date": "2026-09-13",
-  "updated_at": "2026-09-13T06:15:37+08:00",
+  "updated_at": "2026-09-13T08:01:02+08:00",
   "timezone": "Asia/Taipei",
-  "temperature_c": 26.0,
+  "temperature_c": 29.0,
   "sunset": "18:00",
   "quote": "Choose courage over comfort.",
   "image": "today.jpg",
   "image_source": null,
   "image_width": 240,
   "image_height": 140,
-  "weather_observed_at": "2026-09-13T06:15",
+  "weather_observed_at": "2026-09-13T08:00",
   "weather_ok": true
 }
