@@ -1,14 +1,14 @@
 {
   "date": "2026-09-15",
-  "updated_at": "2026-09-15T02:37:25+08:00",
+  "updated_at": "2026-09-15T06:29:43+08:00",
   "timezone": "Asia/Taipei",
-  "temperature_c": 24.2,
+  "temperature_c": 24.3,
   "sunset": "17:58",
   "quote": "Create the day you need.",
   "image": "today.jpg",
   "image_source": null,
   "image_width": 240,
   "image_height": 140,
-  "weather_observed_at": "2026-09-15T02:30",
+  "weather_observed_at": "2026-09-15T06:15",
   "weather_ok": true
 }
