@@ -1,14 +1,14 @@
 {
   "date": "2026-09-14",
-  "updated_at": "2026-09-14T09:02:50+08:00",
+  "updated_at": "2026-09-14T14:16:04+08:00",
   "timezone": "Asia/Taipei",
-  "temperature_c": 28.8,
+  "temperature_c": 30.5,
   "sunset": "17:59",
   "quote": "One clear step is enough.",
   "image": "today.jpg",
   "image_source": null,
   "image_width": 240,
   "image_height": 140,
-  "weather_observed_at": "2026-09-14T09:00",
+  "weather_observed_at": "2026-09-14T14:15",
   "weather_ok": true
 }
