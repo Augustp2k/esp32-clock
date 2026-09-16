@@ -1,14 +1,14 @@
 {
   "date": "2026-09-16",
-  "updated_at": "2026-09-16T05:19:07+08:00",
+  "updated_at": "2026-09-16T08:17:47+08:00",
   "timezone": "Asia/Taipei",
-  "temperature_c": 23.8,
+  "temperature_c": 26.4,
   "sunset": "17:57",
   "quote": "Patience is part of progress.",
   "image": "today.jpg",
   "image_source": null,
   "image_width": 240,
   "image_height": 140,
-  "weather_observed_at": "2026-09-16T05:15",
+  "weather_observed_at": "2026-09-16T08:15",
   "weather_ok": true
 }
